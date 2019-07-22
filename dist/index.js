@@ -4084,7 +4084,7 @@ profile.__warned = false;
  * rem 比例
  * @type {number}
  */
-var remRatio = process.env.REM_RATIO || 10;
+var remRatio = 75;
 
 /**
  * px 转 rem
@@ -4359,6 +4359,7 @@ var StickyTarBar = (_class$1 = (_temp = _class2 = function (_React$PureComponent
   }, {
     key: 'getTopDistance',
     value: function getTopDistance(top, disableRem) {
+      console.log(px2rem(top) + 'rem');
       if (disableRem) {
         return top;
       } else {

@@ -2,7 +2,7 @@
  * rem 比例
  * @type {number}
  */
-const remRatio = process.env.REM_RATIO || 10
+const remRatio = 75
 
 /**
  * px 转 rem

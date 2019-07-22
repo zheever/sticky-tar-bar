@@ -48,6 +48,7 @@ export default class StickyTarBar extends React.PureComponent {
   }
 
   static getTopDistance(top, disableRem) {
+    console.log(`${px2rem(top)}rem`);
     if (disableRem) {
       return top;
     } else {

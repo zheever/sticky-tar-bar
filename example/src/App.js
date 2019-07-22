@@ -13,7 +13,7 @@ export default class Test extends React.PureComponent {
     return (
       <div className={'main'}>
         <div className={'box'} />
-        <StickyTarBar tabs={tabs} top={60} disableRem={true}>
+        <StickyTarBar tabs={tabs} top={60} disableRem={false}>
           <div style={{ display: 'flex', height: '2500px', backgroundColor: '#fff' }}>Content of first tab</div>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '250px', backgroundColor: '#fff' }}>Content of second tab</div>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '250px', backgroundColor: '#fff' }}>Content of third tab</div>
