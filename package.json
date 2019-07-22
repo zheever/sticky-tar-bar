@@ -61,7 +61,7 @@
     "dist"
   ],
   "dependencies": {
-    "antd-mobile": "^2.2.14",
+    "antd-mobile": "2.1.8",
     "babel-runtime": "^6.26.0",
     "core-decorators": "^0.20.0",
     "react-sticky": "https://github.com/zheever/react-sticky/tarball/master"
